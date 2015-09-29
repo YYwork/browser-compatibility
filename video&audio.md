@@ -1,7 +1,13 @@
+## video audio 标签兼容
+
+使用 [html5media](https://html5media.info/) 兼容各大浏览器。
+
+### 视频和音频格式
 
 h.264 格式
 
-[html5media](https://html5media.info/)
+
+## 参考
 
 [jplayer](http://www.jplayer.org/latest/demos/)
 
