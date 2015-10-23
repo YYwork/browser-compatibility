@@ -18,7 +18,7 @@ IE8下不支持HTML5属性placeholder，不过为解决此问题的js插件挺�
 
 background-size: cover
 
-```
+```css
 filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=Enabled, sizingMethod=Size , src=URL)
 ```
 
@@ -26,7 +26,7 @@ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=Enabled, sizi
 
 filter blur
 
-```
+```css
 filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
 
 -webkit-filter: blur(10px);

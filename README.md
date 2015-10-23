@@ -18,7 +18,7 @@ IE8 是唯一一个不是现代浏览器，而在中国市场上依旧占据很�
 >
   由于早期的浏览器支持和理解的 CSS 规范不同，导致浏览器在渲染页面时效果不一致，出现很多兼容性问题。
 
-  ```
+  ```html
     <link href="//cdn.bootcss.com/normalize/3.0.3/normalize.css" rel="stylesheet">
   ```
 
@@ -27,7 +27,7 @@ IE8 是唯一一个不是现代浏览器，而在中国市场上依旧占据很�
 
 ## HTML5 CSS3 兼容 IE
 
-  ```
+  ```html
     <!--[if lt IE 9]>
       <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -44,19 +44,19 @@ IE8 是唯一一个不是现代浏览器，而在中国市场上依旧占据很�
 
 #### 强制IE8使用最新的内核渲染页面
 
-```
+```html
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 ```
 
 #### 360双核浏览器 适用房 Webkit 渲染
-```
+```html
 <meta name="renderer" content="webkit">
 ```
 
 
 ## 使用 [css3pie](http://css3pie.com/) 支持 css3 特性
 
-```
+```js
 border-radius
 box-shadow
 border-image

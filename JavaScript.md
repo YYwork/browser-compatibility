@@ -13,7 +13,7 @@
     (1)现有问题：在IE中，event对象有x,y 属性，Firefox中没有。
     (2)解决方法：在Firefox中，与event.x 等效的是 event.pageX。可以使用：
 
-```
+```js
   mx = event.x ? event.x : event.pageX;
 ```
 
@@ -22,7 +22,7 @@
   (1)现有问题：使用window.event无法在Firefox上运行
   (2)解决方法：
 
-```
+```html
   <input type="button" name="someButton" value="提交" onclick="javascript:gotoSubmit(event)"/>
   ...
   <script language="javascript">
@@ -40,7 +40,7 @@
     (1)现有问题：IE中使用attachEvent来添加事件，Firefox中使用addEventListener。
     (2)解决方法：如下，注意事件参数的区别，一个是click，一个是onclick。
 
-```
+```js
   if (document.attachEvent) document.attachEvent("click", clickHandler,false);
   else document.addEventListener("onclick",clickHandler);
 ```
